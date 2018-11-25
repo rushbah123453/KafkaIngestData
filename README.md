@@ -118,5 +118,17 @@ Then start the server
 
 Start server : 
  kafka-server-start config/server.properties
+ 
+ 
+# Staring Producer 
 
+Create a producer:
+kafka-console-producer --broker-list 1270.1:9092 --topic first_topic
+
+
+ 
+# Staring Consumer 
+
+Create a consumer:
+kafka-console-consumer --bootstrap-server 127.0.0.1:9092 --topic first_topic --from-beginning
 
