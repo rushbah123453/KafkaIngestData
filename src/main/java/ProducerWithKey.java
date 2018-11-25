@@ -37,7 +37,7 @@ public class ProducerWithKey  {
 
         //a key will get same partition every time
 
-        ProducerRecord<String,String> producerRecord =new ProducerRecord<String, String>(topic,value,key);
+        ProducerRecord<String,String> producerRecord =new ProducerRecord<String, String>(topic,key,value);
 
 
 
