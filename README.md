@@ -103,3 +103,20 @@ Kafka Dependencies
 
 
 </dependencies>
+
+
+
+# Starting Producer 
+
+First start the zookeeper
+
+Start zookeeper:   
+ zookeeper-server-start config/zookeeper.properties
+
+
+Then start the server 
+
+Start server : 
+ kafka-server-start config/server.properties
+
+
