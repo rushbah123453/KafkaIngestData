@@ -106,7 +106,7 @@ Kafka Dependencies
 
 
 
-# Starting Producer 
+# Starting Kafka
 
 First start the zookeeper
 
