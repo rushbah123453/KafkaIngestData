@@ -132,3 +132,10 @@ kafka-console-producer --broker-list 1270.1:9092 --topic first_topic
 Create a consumer:
 kafka-console-consumer --bootstrap-server 127.0.0.1:9092 --topic first_topic --from-beginning
 
+
+# Documentation for configuring Producers and Consumers
+
+configure producer: https://kafka.apache.org/documentation/#producerconfigs
+
+configure consumers:  https://kafka.apache.org/documentation/#consumerconfigs
+
