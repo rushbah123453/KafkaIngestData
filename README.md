@@ -139,3 +139,18 @@ configure producer: https://kafka.apache.org/documentation/#producerconfigs
 
 configure consumers:  https://kafka.apache.org/documentation/#consumerconfigs
 
+
+# Create Authentication Key here
+
+Click on Apply:  https://developer.twitter.com
+
+After Applying you will get 4 parameter , fill it here
+
+String consumerKey="Your key"
+
+String consumerSecret="your secret key"
+
+String token="token"
+
+String secret="your secret"
+
